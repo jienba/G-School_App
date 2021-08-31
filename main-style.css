@@ -1,0 +1,153 @@
+/*General*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'crete round',arial, sans-serif;
+    font-size: 15px;
+    background-color: #02243c;
+/*    #4fadf0*/
+    color:#F8F8F8;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 95% ;
+    margin: 0px auto;
+    padding: 0px 10px; 
+}
+
+h1{
+    font-family: 'crete round', serif;
+    font-size: 3em;
+}
+h3{
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+
+/*header*/
+header{
+    height: auto;
+}
+
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav li{
+    display: inline-block;
+    float: left;
+    padding: 5px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #F8F8F8;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 20px;
+    font-family: 'crete round', arial, sans-serif;
+}
+
+header nav ul li:last-of-type {
+/*    border: 2px solid #10af10;*/
+    background-color: #10af10;
+    border-radius: 20px;
+/*    padding: 5px;*/
+}
+
+.bnav:hover{
+    background-color: none;
+    color: #F8F8F8;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 15px;
+}
+
+/*MAIN IMAGE*/
+#main_image img{
+    width: 100%;
+    height: auto;
+}
+
+#myCarousel#{
+    width: 850px;
+}
+
+/*CONTACT*/
+#contact{
+    
+/*    text-align: center;*/
+}
+
+form{
+    text-align: center;
+    width: 60%;
+    margin:25px auto;
+    padding: 60px;
+    font-size: 1.5em;
+    border: 2px solid gray;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 25px;
+}
+
+input, textarea{
+    border: 2px solid #F8F8F8;
+    background-color: #02243c;
+    color: #F8F8F8;
+    border-radius: 5px; 
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+#msg{
+    margin-bottom: 10px;
+}
+
+
+#send{
+    padding: 10px;
+    background-color: #10af10;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+}
+
+#contact h3{
+    width: 50%;  
+	padding: 5px auto; 
+    text-transform: uppercase;
+    margin: 2px auto;
+    border-bottom: 2px solid #02B8DD;
+}
+
+footer {
+	height: 250px;
+	background-color: darkgray;
+}
+
+
+
+
+
+
+
+

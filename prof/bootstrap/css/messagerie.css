@@ -1,0 +1,73 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #02243c;
+  color: #FFF;
+}
+
+.app h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 5em;
+  text-shadow: 0 0 10px #10af10, 0 0 40px #10af10, 0 0 80px #10af10;
+}
+#version{
+	font-size: 15px;
+}
+
+.box-bordered{
+  width: 90%;
+  margin:80px auto;
+  height: 450px;
+  border: 2px solid #FFF;
+  box-shadow: 0 0 10px #10af10, 0 0 20px #10af10;
+  border-radius: 15px;
+}
+
+/* .container{
+	padding-top: 20px;
+	padding-left: 60px;
+} */
+.glyphicon{
+	font-size: 50px;
+	text-align: center;
+}
+.btn-group-vertical{
+	width: 250px;
+	padding: 20px;
+}
+
+.modal .container-fluid{
+	background-color: #02243c;
+	color: #FFF;
+}
+.modal textarea{
+	border: none;
+	outline: none;
+	background: #02243c;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* button{
+	width: 500px;
+	height: 150px;
+	color: #fff;
+} */
+a span.btn{
+	width: 200px;
+	height: 180px;
+	border-radius: 35px;
+	margin-bottom: 10px;
+}
+.btn-default{
+	width: 200px;
+	height: 180px;
+	border-radius: 35px;
+	margin-bottom: 10px;
+}
